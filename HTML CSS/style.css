@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    position: fixed;
+    display: flex;
+    background: transparent;
+    justify-content: space-around;
+    z-index: 1;
+    width: 100%;
+    margin-top: 15px ;
+    border-bottom: 500rem white;
+}
+
+
+.logo {
+    color: white;
+    font-size: 26px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 25px;
+    display: flex;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+/* .main-image {
+    background-image: url(https://wallpaper-house.com/data/out/4/wallpaper2you_29433.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+} */
+
+.banner-image{
+    
+    background-image:url(https://wallpaper-house.com/data/out/4/wallpaper2you_29433.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover ;
+    width: 100%;
+    display: flex;
+
+} 
+.content {
+    
+    display: flex;
+    margin: 12rem 8rem;
+    max-width:350px;
+}
+.contain {
+    margin: 15rem 6rem;
+}
+
+.heading{
+    color:white;
+    font-size: 42px ;
+    font-weight: 20px;
+}
+.subtitle p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+    /* max-width: 350px; */
+
+
+}
+.button {
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    color:blue;
+    border-radius: 11px ;
+    margin-top: 4px ;
+    box-shadow: none;
+    border:none;
+}
+.set-img {
+    margin: 9rem 5rem;
+    max-width: 50%;
+    height: 50%;
+}
+
