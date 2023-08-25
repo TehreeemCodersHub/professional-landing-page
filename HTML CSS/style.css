@@ -90,4 +90,10 @@ nav ul li a {
     max-width: 50%;
     height: 50%;
 }
+.scnd-image {
+    max-width: 26%;
+    height: 12%;
+    margin: 3rem 3rem;
+
+}
 
