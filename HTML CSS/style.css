@@ -120,31 +120,82 @@ nav ul li a {
 .text-decorate {
     background-color: rgb(202, 196, 208);
     color: blueviolet;
-    line-height: 1.8;
-    
+    /* line-height: 1.8; */
+    padding: 9px 12px;
+    font-weight: 7px;
+    margin-top:4rem ;
 
 }
 .heading-2 {
-    margin-top: 3rem 1rem;
+    margin-top: 5rem 1rem;
 }
 
-/* css for card */
-.card-section {
-    display: flex;
-}
+/* card styling */
 
-/* making card  */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
+     max-width: 31%;
+     flex-grow: 0;
+     flex-shrink:0 ;
+     background-color: white;
+     margin: 10px;
+     overflow: hidden;
   }
   
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background:rgb(104, 46, 158);
   }
   
   .container {
     padding: 2px 16px;
+    max-width: 220px;
+    text-align: center;
+    padding-left:50px;
+    padding-right:50px ;
+    
   }
-  
+.card-img {
+    max-width: 23%;
+    margin-left:auto ;
+    margin-right: auto ;
+    display: block;
+
+}
+
+.card-item {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card-flex {
+    background-color: rgb(237 243 247);
+    /* border: black 2px solid; */
+}
+.product-seprate-conent {
+    text-align: center;
+    margin: 50px 130px 25px 450px;
+    padding-top: 65px;
+    max-width: 490px;
+
+    
+}
+.seprate-conent {
+    /* border: black 2px solid; */
+    text-align: center;
+    margin: 50px 0px 25px 0px;
+    padding-top: 65px;
+    
+    
+}
+.for-space {
+    margin-top: 19px;
+    line-height:3.5 ;
+}
+.set-headings {
+   margin-top: 25px;
+
+}
