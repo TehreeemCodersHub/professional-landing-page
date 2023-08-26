@@ -90,10 +90,61 @@ nav ul li a {
     max-width: 50%;
     height: 50%;
 }
+.below-banner {
+    /* dont need to give width of flex */
+    display: flex;
+    justify-content:center;
+    align-items: right;
+    margin: 2rem 3rem;
+
+
+}
+.seprate-block {
+    max-width: 40%;
+    /* border: 1px solid; */
+    margin-left: 15%;
+}
 .scnd-image {
     max-width: 26%;
     height: 12%;
-    margin: 3rem 3rem;
+    
 
 }
+.below-banner ul li {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    line-height: 1.8;
+    
+}
+.text-decorate {
+    background-color: rgb(202, 196, 208);
+    color: blueviolet;
+    line-height: 1.8;
+    
 
+}
+.heading-2 {
+    margin-top: 3rem 1rem;
+}
+
+/* css for card */
+.card-section {
+    display: flex;
+}
+
+/* making card  */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
