@@ -127,11 +127,7 @@ nav ul li a {
 
 }
 .heading-2 {
-<<<<<<< HEAD
     margin-top: 1.5rem;
-=======
-    margin-top: 5rem 1rem;
->>>>>>> a05df6f7e11f26c5a2f6cd10747bc4e147d3cd78
 }
 
 /* card styling */
@@ -181,11 +177,7 @@ nav ul li a {
 }
 .product-seprate-conent {
     text-align: center;
-<<<<<<< HEAD
     margin: 45px 130px 25px 450px;
-=======
-    margin: 50px 130px 25px 450px;
->>>>>>> a05df6f7e11f26c5a2f6cd10747bc4e147d3cd78
     padding-top: 65px;
     max-width: 490px;
 
@@ -195,7 +187,6 @@ nav ul li a {
     /* border: black 2px solid; */
     text-align: center;
     margin: 50px 0px 25px 0px;
-<<<<<<< HEAD
     padding-top: 65px;   
 }
 .for-space {
@@ -424,11 +415,11 @@ nav ul li a {
   margin: 23px 0;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid rgb(121, 61, 176);
 }
 .form {
-    border:solid 2px black;
-    max-width: 50%;
+    /* border:solid 2px black; */
+    max-width: 55%;
     height: 30%;
 }
 .small-input {
@@ -442,17 +433,47 @@ nav ul li a {
     height: 50px;
     margin: 15px 0;
     padding: 50px 0;
-=======
-    padding-top: 65px;
-    
-    
 }
-.for-space {
-    margin-top: 19px;
-    line-height:3.5 ;
-}
-.set-headings {
-   margin-top: 25px;
 
->>>>>>> a05df6f7e11f26c5a2f6cd10747bc4e147d3cd78
+/* last final look */
+.form-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.icon-handling {
+    display: flex;
+    margin-bottom: 12px;
+}
+.main-data {
+    margin-left: 3px;
+}
+.for-margin {
+    margin-right: 20%;
+    margin-top: 32px;
+}
+.newsLetter-testimonial-div-last {
+    text-align: center;
+    margin: 50px 130px 0px 400px;
+    padding-top: 40px;
+    max-width: 490px;   
+    height:25vh; 
+}
+/* now designing the footer */
+footer {
+    text-align: center;
+    padding: 32px;
+    background-color:  rgb(121, 61, 176);
+    color: white;
+    margin-top: 32px;
+  }
+  .set-footer-p{
+    max-width: 380px;
+    text-align: center;
+    margin-left: 360px;
+    font-size: 12px;
+  }
+  .add-icon {
+    display: flex;
+    margin-left: 505px;
+    margin-top: 23px;
 }
