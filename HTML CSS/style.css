@@ -120,31 +120,317 @@ nav ul li a {
 .text-decorate {
     background-color: rgb(202, 196, 208);
     color: blueviolet;
-    line-height: 1.8;
-    
+    /* line-height: 1.8; */
+    padding: 9px 12px;
+    font-weight: 7px;
+    margin-top:4rem ;
 
 }
 .heading-2 {
-    margin-top: 3rem 1rem;
+    margin-top: 1.5rem;
 }
 
-/* css for card */
-.card-section {
-    display: flex;
-}
+/* card styling */
 
-/* making card  */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
+     max-width: 31%;
+     flex-grow: 0;
+     flex-shrink:0 ;
+     background-color: white;
+     margin: 10px;
+     overflow: hidden;
   }
   
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background:rgb(104, 46, 158);
   }
   
   .container {
     padding: 2px 16px;
+    max-width: 220px;
+    text-align: center;
+    padding-left:50px;
+    padding-right:50px ;
+    
+  }
+.card-img {
+    max-width: 23%;
+    margin-left:auto ;
+    margin-right: auto ;
+    display: block;
+
+}
+
+.card-item {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card-flex {
+    background-color: rgb(237 243 247);
+    /* border: black 2px solid; */
+}
+.product-seprate-conent {
+    text-align: center;
+    margin: 45px 130px 25px 450px;
+    padding-top: 65px;
+    max-width: 490px;
+
+    
+}
+.seprate-conent {
+    /* border: black 2px solid; */
+    text-align: center;
+    margin: 50px 0px 25px 0px;
+    padding-top: 65px;   
+}
+.for-space {
+    margin-top: 9px;
+    line-height:3.0 ;
+}
+.set-headings {
+   margin-top: 25px;
+   margin-bottom:40px;
+
+}
+
+/* product watch styling */
+
+.card-product-img {
+ width:330px
+}
+.price {
+    color:rgb(104, 46, 158);
+    font-size:2rem;
+}
+
+.card-product-watch {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 20%;
+    margin-left: 25px;
   }
   
+  .card-product-watch:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container-product-watch{
+    padding: 2px 16px;
+    text-align: center;
+    padding-left:50px;
+    padding-right:50px;
+    background-color: rgb(237 243 247);
+  }
+  .display-watch-card {
+    display: flex;
+    justify-content: center;
+  }
+  .product-seprate-conent-watch {
+    text-align: center;
+    margin: 45px 130px 25px 430px;
+    padding-top: 40px;
+    max-width: 490px;
+  }
+
+  /* css testominal */
+
+
+  .testominal-backgraound{
+    background-color: rgb(104, 46, 158);
+    
+    /* Set the background image */
+    background-image: url('bg-01.jpg'); /* Replace 'your-image.jpg' with the actual image path */
+    background-size: cover; /* Scale the image to cover the entire section */
+    background-blend-mode: multiply; /* Merge the color and image using the multiply blending mode */
+    height: 100vh;
+    background-size: cover ;
+    max-width: 100%;
+    margin-top: 30px;
+    display: flex;
+    /* Set other styles for the section */
+  }
+  .testimonial-text-decorate {
+    color:white;
+    /* background: transparent; */
+    background-color:rgb(121, 61, 176); 
+    padding: 9px 12px;
+    font-weight: 7px;
+    margin-top:4rem ;
+}
+.testimonial-div {
+    text-align: center;
+    margin: 45px 130px 0px 388px;
+    padding-top: 40px;
+    max-width: 490px;   
+    height:25vh;
+}
+.set-headings-testimonial{
+    margin-top: 25px;
+    margin-bottom:40px;
+    color: white;
+    font-size:20px;
+    font-weight: 30px;
+}
+
+/* styling testimonial-cards */
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4% ;
+
+}
+
+.container-testimonial {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    max-width: 42% ;
+    padding: 16px;
+    margin: 16px 0;
+    height: 30vh;
+  }
+  
+  .container-testimonial::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container-testimonial img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container-testimonial span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container-testimonial {
+        text-align: center;
+    }
+    .container-testimonial img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
+  /* now working on frequently question */
+  .below-testimonial {
+    margin-top: 25px;
+    margin-bottom:40px;
+    color: black;
+    font-size:20px;
+    font-weight: 30px;
+
+  }
+  .question {
+    max-width: 45%;
+    margin-bottom: 12px;
+    margin-left: 9px;
+  }
+  .writting-question {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width:99% ;
+    
+  }
+  .color-blue {
+   color: rgb(121, 61, 176); 
+  }
+
+  /* news letter background */
+
+
+  
+  .newsLetter-backgraound{
+    background-color: rgb(104, 46, 158);
+    
+    /* Set the background image */
+    background-image: url('bg-02.jpg'); /* Replace 'your-image.jpg' with the actual image path */
+    background-size: cover; /* Scale the image to cover the entire section */
+    background-blend-mode: multiply; /* Merge the color and image using the multiply blending mode */
+    height: 50vh;
+    background-size: cover ;
+    max-width: 100%;
+    margin-top: 30px;
+    display: flex;
+    /* Set other styles for the section */
+  }
+  .testimonial-text-decorate {
+    color:white;
+    /* background: transparent; */
+    background-color:rgb(121, 61, 176); 
+    padding: 9px 12px;
+    font-weight: 7px;
+    margin-top:4rem ;
+}
+.newsLetter-testimonial-div {
+    text-align: center;
+    margin: 50px 130px 0px 520px;
+    padding-top: 40px;
+    max-width: 490px;   
+    height:25vh;
+}
+/* .set-headings-testimonial{
+    margin-top: 25px;
+    margin-bottom:40px;
+    color: white;
+    font-size:20px;
+    font-weight: 30px;
+} */
+
+.search-bar {
+    display: flex;
+    width: 79%;
+    height: 37%;
+    border-radius: 23px;
+    margin-left: 25%;
+}
+.button-2 {
+    padding: 9px 15px 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    color:blue;
+    border-radius: 11px ;
+    margin-top: 4px ;
+    box-shadow: none;
+    border:none;
+    display: flex;
+}
+.input-form {
+  width: 100%;
+  padding: 2px 0px;
+  margin: 23px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+}
+.form {
+    border:solid 2px black;
+    max-width: 50%;
+    height: 30%;
+}
+.small-input {
+    display: flex;
+    margin-left: 23pxx;
+}
+.for-space {
+    margin-left: 8px;
+}
+.text-area {
+    height: 50px;
+    margin: 15px 0;
+    padding: 50px 0;
+}
