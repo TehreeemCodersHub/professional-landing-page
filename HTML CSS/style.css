@@ -127,7 +127,11 @@ nav ul li a {
 
 }
 .heading-2 {
+<<<<<<< HEAD
     margin-top: 1.5rem;
+=======
+    margin-top: 5rem 1rem;
+>>>>>>> a05df6f7e11f26c5a2f6cd10747bc4e147d3cd78
 }
 
 /* card styling */
@@ -177,7 +181,11 @@ nav ul li a {
 }
 .product-seprate-conent {
     text-align: center;
+<<<<<<< HEAD
     margin: 45px 130px 25px 450px;
+=======
+    margin: 50px 130px 25px 450px;
+>>>>>>> a05df6f7e11f26c5a2f6cd10747bc4e147d3cd78
     padding-top: 65px;
     max-width: 490px;
 
@@ -187,6 +195,7 @@ nav ul li a {
     /* border: black 2px solid; */
     text-align: center;
     margin: 50px 0px 25px 0px;
+<<<<<<< HEAD
     padding-top: 65px;   
 }
 .for-space {
@@ -433,4 +442,17 @@ nav ul li a {
     height: 50px;
     margin: 15px 0;
     padding: 50px 0;
+=======
+    padding-top: 65px;
+    
+    
+}
+.for-space {
+    margin-top: 19px;
+    line-height:3.5 ;
+}
+.set-headings {
+   margin-top: 25px;
+
+>>>>>>> a05df6f7e11f26c5a2f6cd10747bc4e147d3cd78
 }
